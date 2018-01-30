@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <fragment
+            android:id="@+id/menu_fragment"
+            android:name="jra.cinescope2017.Bandeau"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </fragment>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="CATALOGUE"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <GridView
+                android:id="@+id/gridView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:columnWidth="200dp"
+                android:gravity="center"
+                android:horizontalSpacing="10dp"
+                android:verticalSpacing="30dp"
+                android:numColumns="auto_fit"
+                android:stretchMode="columnWidth"
+                >
+
+            </GridView>
+
+            <Button
+                android:id="@+id/buttonAccueil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="retourAccueil"
+                android:text="Retour à l&apos;accueil" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

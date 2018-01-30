@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hit Parade Du Public"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textViewSemaine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Semaine du 1er au 8 Novembre 2017"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <GridView
+            android:id="@+id/gridView1"
+            android:layout_width="0dp"
+            android:layout_weight="60"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:numColumns="1"
+            android:padding="5dp"/>
+
+        <GridView
+            android:id="@+id/gridView2"
+            android:layout_width="0dp"
+            android:layout_weight="40"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:numColumns="3"
+            android:padding="5dp"/>
+
+    </LinearLayout>
+
+    <!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:orientation="horizontal">-->
+
+        <!--<Button-->
+            <!--android:id="@+id/buttonValider"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_margin="10dp"-->
+            <!--android:layout_weight="50"-->
+            <!--android:text="Valider" />-->
+
+        <!--<Button-->
+            <!--android:id="@+id/buttonAnnuler"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_margin="10dp"-->
+            <!--android:layout_weight="50"-->
+            <!--android:text="Annuler" />-->
+    <!--</LinearLayout>-->
+
+</LinearLayout>

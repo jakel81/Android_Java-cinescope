@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/itemInscription"
+        android:orderInCategory="100"
+        android:title="Inscription"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/itemAuthentification"
+        android:orderInCategory="100"
+        android:title="Authentification"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/itemCompte"
+        android:orderInCategory="100"
+        android:title="Mon compte"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/itemAccueil"
+        android:orderInCategory="100"
+        android:title="Accueil"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/itemFilms"
+        android:orderInCategory="100"
+        android:title="Tous les films"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/itemBO"
+        android:orderInCategory="100"
+        android:title="Box office"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/itemHPP"
+        android:orderInCategory="100"
+        android:title="Hit parade du public"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/itemADC"
+        android:orderInCategory="100"
+        android:title="Avis des critiques"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/itemSDP"
+        android:orderInCategory="100"
+        android:title="Salles de Paris"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/itemRA"
+        android:orderInCategory="100"
+        android:title="Recherche avancée"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/itemImportation"
+        android:orderInCategory="100"
+        android:title="Importations"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/itemGeocodage"
+        android:orderInCategory="100"
+        android:title="Géocodage"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="Configuration"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/itemAide"
+        android:orderInCategory="100"
+        android:title="Aide"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/itemAPropos"
+        android:orderInCategory="100"
+        android:title="A propos"
+        app:showAsAction="never" />
+
+</menu>

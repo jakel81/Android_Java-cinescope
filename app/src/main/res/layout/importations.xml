@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Importations"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/buttonArrondissement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ARRONDISSEMENTS" />
+
+    <Button
+        android:id="@+id/buttonDepartement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DEPARTEMENTS" />
+
+    <Button
+        android:id="@+id/buttonCinema"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CINEMAS" />
+
+    <Button
+        android:id="@+id/buttonGenre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GENRES" />
+
+    <Button
+        android:id="@+id/buttonMedia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MEDIAS" />
+
+    <Button
+        android:id="@+id/buttonPays"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PAYS" />
+
+    <Button
+        android:id="@+id/buttonVille"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VILLES" />
+
+    <TextView
+        android:id="@+id/textViewMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Message"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</LinearLayout>
